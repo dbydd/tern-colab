@@ -1,0 +1,13 @@
+schema = 1
+id = "tern-colab"
+name = "Colab SSH"
+version = "0.1.0"
+description = "Provision Google Colab runtimes and open SSH panes in Tern via google-colab-cli."
+icon = "server"
+host = "host.luau"
+window = "window.luau"
+
+[[blocks]]
+id = "sessions"
+title = "Colab Sessions"
+icon = "server"
