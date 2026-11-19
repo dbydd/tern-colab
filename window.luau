@@ -490,7 +490,7 @@ local function check_usage_flow(cx: WindowCx)
 end
 
 local function open_glimpse_panel(cx: WindowCx)
-	local created = cx:new_block(BLOCK_ID, nil, "glimpse")
+	local created = cx:new_block(BLOCK_ID, nil, "glimpse", { focus = true })
 	if created ~= nil then
 		glimpse_panes[created] = true
 	end
